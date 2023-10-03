@@ -4,8 +4,6 @@ import { request } from 'graphql-request'
 import { BarLoader } from 'React-spinners'
 import { useState } from "react"
 import Modal from 'react-modal'
-import spaceBackground from '../Images/star-wars-space-background.jpg'
-
 
 export function Main() {
 
@@ -19,7 +17,6 @@ export function Main() {
             left: '50%',
             right: 'auto',
             bottom: 'auto',
-            // marginRight: '-50%',
             transform: 'translate(-50%, -50%)',
         },
     };
