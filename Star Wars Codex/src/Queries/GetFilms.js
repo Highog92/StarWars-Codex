@@ -1,8 +1,12 @@
 export const getAllFilms = `query AllFilms {
-    allFilms {
-      films {
-          title
-        releaseDate
-      }
+  allFilms {
+    films {
+      id
+      title
+      releaseDate
+      director
+      producers
+      openingCrawl
     }
-  }`
+  }
+}`

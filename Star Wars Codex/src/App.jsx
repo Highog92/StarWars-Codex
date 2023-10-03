@@ -1,4 +1,5 @@
 import './App.css'
+import { Footer } from './Components/Footer'
 import { Main } from './Pages/Main'
 import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <QueryClientProvider client={queryClient}>
         <Main />
+        <Footer/>
       </QueryClientProvider>
     </>
   )
